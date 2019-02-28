@@ -15,31 +15,37 @@
 				<div class="column is-one-third is-offset-one-third">
 					<h1 class="title has-text-centered">Create your account.</h1>
 					<br/>
-					<div class="field">
-						<div class="control">
-							<p>&nbsp; Enter your username here:</p>
-							<br/>
-							<input class="input is-info is-rounded" type="text" placeholder="Enter Username">
+					<form action="php/connect.php" method="post">
+						<div class="field">
+							<div class="control">
+								<p>&nbsp; Enter your username here:</p>
+								<br/>
+								<input type="text" class="input is-info is-rounded" placeholder="Enter Username"name="username">
+							</div>
 						</div>
-					</div>
-					<br/>
-					<div class="field">
-						<div class="control">
-							<p>&nbsp; Enter your password here:</p>
-							<br/>
-							<input class="input is-info is-rounded" type="password" placeholder="Enter Password">
+						<br/>
+						<div class="field">
+							<div class="control">
+								<p>&nbsp; Enter your password here:</p>
+								<br/>
+								<input type="password" class="input is-info is-rounded" placeholder="Enter Password" name="password">
+							</div>
 						</div>
-					</div>
-					<br/>
-					<div class="field">
-						<div class="control">
-							<p>&nbsp; Re-enter your password here:</p>
-							<br/>
-							<input class="input is-info is-rounded" type="password" placeholder="Re-enter Password">
+						<br/>
+						<div class="field">
+							<div class="control">
+								<p>&nbsp; Re-enter your password here:</p>
+								<br/>
+								<input type="password" class="input is-info is-rounded" placeholder="Re-enter Password">
+							</div>
 						</div>
-					</div>
-					<br/>
-					<a href="feed.html" class="button is-info is-rounded"><strong>Sign up</strong></a>
+						<br/>
+						<div class="field">
+							<div class="control">
+								<input type="submit" class="button is-info is-rounded" value="Sign up"/>
+							</div>
+						</div>
+					</form>
 				</div>
 			</div>
 		</section>
