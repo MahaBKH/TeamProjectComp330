@@ -5,11 +5,8 @@ var Twit = require ('twit');
     access_token: '1097522174326464512-P0Tzdwpong9efNuKZT9eFjm42r9x7F',
     access_token_secret: 'cTSYXbqHtrFYLclGlRrzBFDwq3zh1MZNU1H5itdKU9FOa'
 });
-T.get('search/tweets', { q: 'Loyola since:2018-11-02', count: 100 }, function(err, data, response) {
-    data.statuses.forEach(function(tweet){
-        console.log("tweet:" + tweet.text)
-    })
-    // console.log(data)
+// get `trump` twitter users
+T.get('users/suggestions/:slug', { slug: 'trump' }, function (err, data, response) {
+    console.log(data)
   })
 
-var loginBTN = document.getElementById('loginBTN').addEventListener('click', yourfunction);
