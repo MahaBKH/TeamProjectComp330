@@ -6,14 +6,33 @@ var Twit = require ('twit');
     access_token_secret: 'cTSYXbqHtrFYLclGlRrzBFDwq3zh1MZNU1H5itdKU9FOa'
 });
 
-function searchAPI(hashtag, user, url){
-T.get('search/tweets', { q: 'Loyola since:2018-11-02', count: 5 }, function(err, data, response) {
+function searchAPI(user){
+T.get('search/tweets', { q: user+ ' since:2018-11-02', count: 5 }, function(err, data, response) {
     data.statuses.forEach(function(tweet){
         console.log("tweet:" + tweet.text)
     })
      console.log(data['text'])
+     return data['text']
   })
+
+  
 }
 
-searchAPI('d','d','d')
+document.getElementById('clickable').addEventListener("click", getResults)
+
+function getResults() {
+    var user = document.getElementById("user").value;
+    var hash = document.getElementById("hashtag").value;
+    var www = document.getElementById("URL").value; 
+   
+	console.log(user);  
+	console.log(hash);
+    console.log(www);
+    searchAPI(user);
+//    let val = twitterModule.searchAPI(user);
+//    alert(val)
+
+}
+
+// searchAPI('Loyola');
 //var loginBTN = document.getElementById('loginBTN').addEventListener('click', yourfunction);
