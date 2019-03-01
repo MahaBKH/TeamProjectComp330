@@ -1,0 +1,64 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Login on Twitter.</title>
+		<link rel="icon" href="file:///C:/Users/Eric/source/repos/TEAM4_PROJECT2/img/twitter-favicon.ico">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css">
+		<script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+
+        <script type="text/javascript">
+
+          function checkForm(form)
+          {
+            if(form.username.value == "") {
+              alert("Error: Username cannot be blank!");
+              form.username.focus();
+              return false;
+            }
+
+            if(form.password.value == "") {
+              alert("Error: Password cannot be blank!");
+              form.password.focus();
+              return false;
+            }
+
+            return true;
+          }
+
+        </script>
+	</head>
+
+	<body>
+		<section class="section">
+			<div class="columns">
+				<div class="column is-one-third is-offset-one-third">
+					<img src="file:///C:/Users/Eric/source/repos/TEAM4_PROJECT2/img/twitter-logo.png" />
+					<h1 class="title has-text-centered">Log in to see what's happening.</h1>
+					<br/>
+					<form action="feed.html" onsubmit="return checkForm(this);">
+						<div class="field">
+							<div class="control">
+								<input class="input is-info is-rounded" type="text" placeholder="Username" name="username">
+							</div>
+						</div>
+						<br/>
+						<div class="field">
+							<div class="control">
+								<input class="input is-info is-rounded" type="password" placeholder="Password" name="password">
+							</div>
+						</div>
+						<br/>
+						<div class="field">
+							<div class="control">
+                                <input type="submit" class="button is-info is-rounded" value="Log in" name="login">
+                                <p class="has-text-right">New to Twitter? &nbsp;&nbsp;<a href="signup.html">Sign up now</a></p>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+		</section>
+	</body>
+</html>
