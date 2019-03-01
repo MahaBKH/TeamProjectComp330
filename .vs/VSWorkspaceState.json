@@ -1,8 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\img"
+    "\\img",
+    "\\php"
   ],
-  "SelectedNode": "\\feed.html",
+  "SelectedNode": "\\php\\connect.php",
   "PreviewInSolutionExplorer": false
 }
