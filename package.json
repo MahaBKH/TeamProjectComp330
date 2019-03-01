@@ -9,6 +9,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "pg": "^7.8.1"
+    "jsdom": "^13.2.0",
+    "pg": "^7.8.1",
+    "require": "^2.4.20",
+    "twit": "^2.2.11",
+    "twitter": "^1.7.1"
   }
 }
