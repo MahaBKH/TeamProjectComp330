@@ -1,6 +1,8 @@
-# TEAM4_PROJECT2
+# SE Team 4: Project 2
 ## Goal
 The result of this project is a web application that implements a user friendly interface using Twitter colors that allows for user interaction. 
+
+## Run and Build Instructions
 
 ## Features
 ### Web Application using Bulma
@@ -12,4 +14,5 @@ We implemented login verification as one of the main features. The login verific
   * Password must contain at least one number  
   * Password must contain at least one uppercase letter  
   * The inputs in the Password and Confirm password field must pass    
+  
 These requirements must be met in order to move on the Feed page, otherwise and error notification box pops up to nitify the user of what requirement they still need to meet (i.e. if the user is missing a number in the password, an error box with the follwong error will pop-up: "Error: password must contain at least one number (0-9).")
