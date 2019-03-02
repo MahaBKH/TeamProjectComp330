@@ -3,6 +3,7 @@
 The result of this project is a web application that implements a user friendly interface using Twitter colors that allows for user interaction. 
 
 ## Run and Build Instructions
+You can clone this project into Visual Studio Code, which is what was used to work on it. Opening the index.html file with a browser, preferably Google Chrome, will run the web application.
 
 ## Features
 ### Web Application using Bulma
