@@ -16,4 +16,7 @@ We implemented login verification as one of the main features. The login verific
   * Password must contain at least one uppercase letter  
   * The inputs in the Password and Confirm password field must pass    
   
-These requirements must be met in order to move on the Feed page, otherwise and error notification box pops up to nitify the user of what requirement they still need to meet (i.e. if the user is missing a number in the password, an error box with the follwong error will pop-up: "Error: password must contain at least one number (0-9).")
+These requirements must be met in order to move on the Feed page, otherwise and error notification box pops up to nitify the user of what requirement they still need to meet (i.e. if the user is missing a number in the password, an error box with the follwong error will pop-up: "Error: password must contain at least one number (0-9).").  
+
+## Reflections
+This project has been accompanied with many ups and downs and fixes. Through the process we learned many lessons about proper GitHub merging, project configurations, dependencies, team communication. We also learned the importance of contiued communication in order to ennd with a coherent project.
