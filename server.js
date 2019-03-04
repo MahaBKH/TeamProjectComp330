@@ -49,7 +49,7 @@ http.createServer(jsonApp).listen(port, () => {
 // timeline of user tweets
 jsonApp.get('/timeline.json', (req, res) => {
 	// example params - e.g. screen_name of user...
-	const params = {screen_name: 'BBCNews'};
+	const params = {screen_name: 'LoyolaChicago'};
 	// get user timeline
 	twitterClient.get('statuses/user_timeline', params, function(error, tweets, response) {
 		// if no error - use tweets or response...
@@ -61,6 +61,7 @@ jsonApp.get('/timeline.json', (req, res) => {
 			*/
 			// outputs first tweet
 			res.json(tweets[0]);
+			
 			// outputs all tweets
 			// res.json(tweets);
   	} else {
