@@ -1,6 +1,6 @@
 # SE Team 4: Project 2
 ## Goal
-The result of this project is a web application that implements a user friendly interface using Twitter colors that allows for user interactios.
+The result of this project is a web application that implements a user friendly interface that allows for user interaction. It has several features as outlined below. 
 
 ## Run and Build Instructions
 Please follow the setps below to ensure this web application runs as needed:
@@ -42,4 +42,7 @@ We included a world map feature as fun interactive map that allows you to click 
 We included a fun Words of Wisdom page which is a random quotes generator. And, it also allows you to click on a tweet button to share something on Twitter.
 
 ## Reflections
-This project has been accompanied with many ups and downs and fixes. Through the process we learned many lessons about proper GitHub merging, project configurations, dependencies, team communication. We also learned the importance of contiued communication in order to end with a coherent project having that we decided to start with a new project in the second week of the process. 
+This project has been accompanied with many ups and downs and fixes. Through the process we learned many lessons about proper GitHub merging, project configurations, dependencies, team communication. We also learned the importance of contiued communication in order to end with a coherent project having that we decided to start with a new project in the second week of the process. This project went rhough a lot of changes and required us to adjust ot the circumstances. We originally started with an Android Studio app that changed to a web application, we alsohad a lot of issues getting the API up and running, but we still have a working API whose data can be accessed about the user that is hardcoded in. We even added two fun features. This project has taught us how to work with new technologies such as Node, server-side problems, JavaScript, and more. We also learned the importance of GitHub branching and how to avoid merging conflicts sine that was a huge source of issues early on in the project. Overall, this project was a huge learning experience and has better prepared us for the final semster project.
+  
+    
+Software Requirements document can be found here: https://docs.google.com/document/d/1UbNAnlWFwyI88b9gsaV5jTWpR_EDOiLiTKiGmrd8sgo/edit?usp=sharing
