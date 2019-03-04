@@ -9,7 +9,7 @@ Please follow the setps below to ensure this web application runs as needed:
  * Issue the command "npm start' to start the server
       * If you encounter errors:
         * On Windows, run the command taskkill /f /im node.exe followed by npm start
-        * On Mac or Linux, run the command killall node follwed by npm start
+        * On Mac or Linux, run the command killall node followed by npm start
  * Go to the index.html file and run in browser, preferably Google Chrome
 
 ## Features
