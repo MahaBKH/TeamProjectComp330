@@ -26,13 +26,13 @@ We implemented login verification as one of the main features. The login verific
 These requirements must be met in order to move on the Feed page, otherwise and error notification box pops up to nitify the user of what requirement they still need to meet (i.e. if the user is missing a number in the password, an error box with the follwing error will pop-up: "Error: password must contain at least one number (0-9).").  
 
 ### Twitter API
-The search API was implemented to look for tweets froma  sepcific user. The API is hadrcoded to access the most recent tweet from @LoyolaChicago. This is the feature that we ran ito issues with and is fruther discussed in the refelction below.
+The search API was implemented to look for tweets froma  sepcific user. The API is hardcoded to access the most recent tweet from @LoyolaChicago. This is the feature that we ran in to issues with and is fruther discussed in the reflection below.
 
 ### Embedded Twitter Timeline
-On the feed page, we implemented a feature where the tweets from Loyola Chicago twitterand ther timeline is embedded on the page for the user to look at. This feed updates in realtime.
+On the feed page, we implemented a feature where the tweets from Loyola Chicago twitter and the timeline is embedded on the page for the user to look at. This feed updates in realtime.
 
 ### Class Lecture Aspect
-We utilized Scrum methodology as discussed in the lecture videos. We used "sprints" as one of our main methods of meetings and work. It allowed for us as a bigger team to be more effective whether it was in person or over Zoom call. We used Basecamp actively to schedule our meeting and to-dos, upload notes, adn create benchmarks to meet in each meeting/worrk session.
+We utilized Scrum methodology as discussed in the lecture videos. We used "sprints" as one of our main methods of meetings and work. It allowed for us as a bigger team to be more effective whether it was in person or over Zoom call. We used Basecamp actively to schedule our meeting and to-dos, upload notes, and create benchmarks to meet in each meeting/worrk session.
 
 ### Additional Fun Features
 #### World Map
